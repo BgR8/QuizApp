@@ -31,3 +31,7 @@ php artisan serve
 ```
 composer require laravel/jetstream
 ```
+## Jetstream with Livewire
+```
+php artisan jetstream:install livewire
+```
