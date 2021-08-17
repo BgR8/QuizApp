@@ -88,3 +88,7 @@ php artisan migrate:fresh --seed
 ```
 php artisan make:middleware isAdmin
 ```
+## Quiz Migration
+```
+php artisan make:migration quiz_migration --create="quizzes"
+```
