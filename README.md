@@ -35,3 +35,12 @@ composer require laravel/jetstream
 ```
 php artisan jetstream:install livewire
 ```
+## Veritabanına Gönder
+```
+php artisan migrate
+```
+## npm install && npm run dev
+```
+npm install
+npm run dev
+```
