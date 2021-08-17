@@ -60,3 +60,7 @@ npm i bootstrap
 ```
 @import 'bootstrap';
 ```
+# Veritabanını Temizle
+```
+php artisan migrate:fresh
+```
