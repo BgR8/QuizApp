@@ -84,3 +84,7 @@ $types = ['admin', 'user'];
 ```
 php artisan migrate:fresh --seed
 ```
+## Middleware Oluştur
+```
+php artisan make:middleware isAdmin
+```
