@@ -52,3 +52,11 @@ npm run watch
 ```
 php artisan storage:link
 ```
+## Bootstrap kurulum
+```
+npm i bootstrap
+```
+## Bootstrap'ı ```resources>css>app.css``` import et
+```
+@import 'bootstrap';
+```
