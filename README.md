@@ -48,3 +48,7 @@ npm run dev
 ```
 npm run watch
 ```
+## Storage Linki ver
+```
+php artisan storage:link
+```
