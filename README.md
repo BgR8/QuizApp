@@ -64,3 +64,23 @@ npm i bootstrap
 ```
 php artisan migrate:fresh
 ```
+## Seeders yorumunu kaldır ve 5 tane üye oluştur.
+```
+// seeders/DatabaseSeeder.php
+\App\Models\User::factory(5)->create();
+```
+## Üye türünü belirt (admin, user)
+```
+// admin/migrations/.._create_users_table.php
+$table->enum('type', ['admin', 'user'])->default('user');
+```
+## Üyeleri oluştur
+```
+// database/factories/UserFactory.php
+$types = ['admin', 'user'];
+'type' => $types[rand(0,1)],
+```
+## Tabloları sıfırla ve kullanıcı tablosuna verileri yükle
+```
+php artisan migrate:fresh --seed
+```
