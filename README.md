@@ -44,3 +44,7 @@ php artisan migrate
 npm install
 npm run dev
 ```
+## Yapılan değişiklikeri otomatik kaydet
+```
+npm run watch
+```
