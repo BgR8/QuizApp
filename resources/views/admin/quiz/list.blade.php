@@ -4,7 +4,7 @@
     </x-slot>
     <div class="card-body">
         <h5 class="card-title">
-            <a href="" class="btn btn-sm btn-primary">Quiz Oluştur</a>
+            <a href="{{ route('quizzes.create') }}" class="btn btn-sm btn-primary">Quiz Oluştur</a>
         </h5>
         <table class="table table-bordered bg-white">
             <thead>

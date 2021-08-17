@@ -35,7 +35,26 @@
 
             <!-- Page Content -->
             <main>
-                {{ $slot }}
+                <div class="container">
+                    <div class="row">
+                        <p></p>
+                        @if ($errors->any())
+                            <div class="alert alert-danger">
+                                @foreach ($errors->all() as $error)
+                                    <li>{{$error}}</li>
+                                @endforeach
+                            </div>
+                        @endif
+
+                        @if(session('success'))
+                            <div class="alert alert-success">
+                                {{session('success')}}
+                            </div>
+                        @endif
+                        
+                        {{ $slot }}
+                    </div>
+                </div>
             </main>
         </div>
 
