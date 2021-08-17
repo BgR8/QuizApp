@@ -92,3 +92,7 @@ php artisan make:middleware isAdmin
 ```
 php artisan make:migration quiz_migration --create="quizzes"
 ```
+## Quiz to Migrate
+```
+php artisan migrate
+```
