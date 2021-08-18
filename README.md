@@ -96,3 +96,7 @@ php artisan make:migration quiz_migration --create="quizzes"
 ```
 php artisan migrate
 ```
+## Errors Folder in Views
+```
+php artisan vendor:publish --tag=laravel-erros
+```
